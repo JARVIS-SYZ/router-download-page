@@ -208,7 +208,7 @@ h1 {
 }
 
 .store-mark.play {
-  background: linear-gradient(135deg, #dff8ff, #36ffd1 42%, var(--blue-strong));
+  background: rgba(237, 248, 255, 0.96);
 }
 
 .store-mark svg {
@@ -216,6 +216,28 @@ h1 {
   width: 22px;
   height: 22px;
   fill: currentColor;
+}
+
+.store-mark .google-play-icon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+}
+
+.google-play-icon .play-blue {
+  fill: #00a0ff;
+}
+
+.google-play-icon .play-green {
+  fill: #00d084;
+}
+
+.google-play-icon .play-yellow {
+  fill: #ffcf3f;
+}
+
+.google-play-icon .play-red {
+  fill: #ff4f5e;
 }
 
 .store-button span:last-child {
